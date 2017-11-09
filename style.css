@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+h2 {
+    margin-left: 50px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 30px;
+    background: #00b0ff;
+    font-size: 18px;
+    transition: 0.2s;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+ul li.checked {
+    background-color: #00b0ff;
+    color: #fff;
+    text-decoration: line-through;
+}
+ul li.checked::before {
+    content: '';
+    position:absolute;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 10px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+}
+.header {
+    color: #00b0ff;
+    margin-left: 450px;
+}
+.mdl-chip__action {
+    margin: 0 0 0 302px;
+}
+.mdl-card {
+    margin-left: 400px;
+    width: 450px;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-color: #00b0ff;
+
+}
+.my-container {
+    width: 100%;
+}
+.box {
+    margin-left: 450px;
+}
+.service {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    border-color: deeppink;
+    background-color: #EF3C79;
+}
+.box-button {
+    margin: 5px 0 0 550px;
+}
+.clearBtn {
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin-left: 400px;
+    border-radius: 50%;
+    border-color: #00ACC1;
+    background-color: #00ACC1;
+}
+.hide {
+    display: none;
+}
+

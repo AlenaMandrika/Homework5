@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo-list</title>
+    <!-- Material Design Lite -->
+    <link rel="stylesheet" href="node_modules/material-design-lite/material.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="header">
+        <h2>Todo-list</h2>
+    </div>
+    <form action="#" class="box">
+        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="text" id="sample3" value="">
+            <label class="mdl-textfield__label" for="sample3">What needs to be done</label>
+        </div>
+        <button id="myButton" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+            <i class="material-icons">add</i>
+        </button>
+    </form>
+    <div class="mdl-card mdl-shadow--4dp">
+        <div class="mdl-card">
+            <div class="my-container">
+                <ul id="board">
+                    <li class="checked">item 1</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="box-button">
+        <button id="btn-all" class="service">All</button>
+        <button id="btn-active" class="service">Active</button>
+        <button id="btn-clear" class="service">Clear</button>
+    </div>
+    <script src="script.js"></script>
+    <script src="node_modules/material-design-lite/material.min.js"></script>
+</body>
+</html>
