@@ -1,4 +1,5 @@
 * {
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 h2 {
@@ -14,10 +15,13 @@ ul li {
     padding: 12px 8px 12px 30px;
     background: #00b0ff;
     font-size: 18px;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
     transition: 0.2s;
 
     -webkit-user-select: none;
     -moz-user-select: none;
+    -ms-user-select: none;
     user-select: none;
 }
 ul li.checked {
@@ -33,6 +37,8 @@ ul li.checked::before {
     border-width: 0 2px 2px 0;
     top: 10px;
     left: 10px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
     transform: rotate(45deg);
     height: 15px;
     width: 7px;
@@ -47,7 +53,11 @@ ul li.checked::before {
 .mdl-card {
     margin-left: 400px;
     width: 450px;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
     justify-content: flex-start;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
     align-items: flex-end;
     background-color: #00b0ff;
 
@@ -80,4 +90,3 @@ ul li.checked::before {
 .hide {
     display: none;
 }
-
