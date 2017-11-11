@@ -10,9 +10,9 @@ ul {
     padding: 0;
 }
 ul li {
-    cursor: pointer;
     position: relative;
     padding: 12px 8px 12px 30px;
+    cursor: pointer;
     background: #00b0ff;
     font-size: 18px;
     -webkit-transition: 0.2s;
@@ -44,8 +44,8 @@ ul li.checked::before {
     width: 7px;
 }
 .header {
-    color: #00b0ff;
     margin-left: 450px;
+    color: #00b0ff;
 }
 .mdl-chip__action {
     margin: 0 0 0 302px;
@@ -53,14 +53,13 @@ ul li.checked::before {
 .mdl-card {
     margin-left: 400px;
     width: 450px;
+    background-color: #00b0ff;
     -webkit-box-pack: start;
     -ms-flex-pack: start;
     justify-content: flex-start;
     -webkit-box-align: end;
     -ms-flex-align: end;
     align-items: flex-end;
-    background-color: #00b0ff;
-
 }
 .my-container {
     width: 100%;
