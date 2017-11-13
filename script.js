@@ -58,7 +58,7 @@ function newElement(value) {
     for (var i = 0; i < offButton.length; i++) {
         offButton[i].addEventListener('click', function (ev) {
             var div = this.parentElement;
-            div.style.display = "none";
+            div.remove(li);
         }, false);
     }
 }
