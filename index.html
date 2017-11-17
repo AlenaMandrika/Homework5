@@ -7,8 +7,10 @@
     <!-- Material Design Lite -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <link rel="stylesheet" href="./build/css/style.css">
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-    <link rel="stylesheet" href="./style.css">
+    <script src="./build/js/custom.min.js" defer></script>
+
 </head>
 <body>
     <div class="header">
@@ -23,21 +25,24 @@
             <i class="material-icons">add</i>
         </button>
     </form>
+    <div class="score">
+        <div>All:<input id="all" type="number" readonly value="0"></div>
+        <div>Done:<input id="done" type="number" readonly value="0"></div>
+        <div>Undone:<input id="undone" type="number" readonly value="0"></div>
+    </div>
+    <div class="box-button" id="box-button">
+        <button id="btn-all" class="service active">All</button>
+        <button id="btn-active" class="service">Active</button>
+        <button id="btn-clear" class="service">Clear</button>
+    </div>
     <div class="mdl-card mdl-shadow--4dp">
         <div class="mdl-card">
             <div class="my-container">
                 <ul id="board">
-                    <li>item</li>
+
                 </ul>
             </div>
         </div>
     </div>
-    <div class="box-button">
-        <button id="btn-all" class="service">All</button>
-        <button id="btn-active" class="service">Active</button>
-        <button id="btn-clear" class="service">Clear</button>
-    </div>
-    <script src="script.js"></script>
-
 </body>
 </html>

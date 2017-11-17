@@ -10,3 +10,9 @@ Todo-list (with material design):
 - select todo (done)
 - unselect todo (undone)
 - amount of selected todos
+
+
+git clone https://github.com////////
+cd into folder
+npm install
+gulp watch
