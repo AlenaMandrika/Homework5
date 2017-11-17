@@ -12,7 +12,7 @@ Todo-list (with material design):
 - amount of selected todos
 
 
-git clone https://github.com////////
+git clone https://github.com/AlenaMandrika/Homework5.github.io
 cd into folder
 npm install
 gulp watch
